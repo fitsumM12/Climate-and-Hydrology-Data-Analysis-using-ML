@@ -4,16 +4,16 @@ The Gilgel Gibe Watershed, located in Western Ethiopia, is a critical area for w
 ## Methodology
 ### 1. Data Collection and Preprocessing
 - Climate Data: The climate data for the Gilgel Gibe Watershed was collected from meteorological stations and includes variables such as precipitation, temperature, solar radiation, and wind speed. This data spans from 1993 to 2023.
-o	Hydrological Data: Daily streamflow data, runoff measurements, and other hydrological indicators were gathered for the same period. This data was essential for understanding the watershed's response to climatic variables.
-2.	Machine Learning Models
-o	Random Forest (RF): RF is an ensemble learning technique that combines multiple decision trees to improve prediction accuracy. It handles complex interactions and non-linear relationships in the data effectively.
-o	Support Vector Machine (SVM): SVM is a supervised learning model that performs classification and regression by finding the optimal hyperplane that separates data points. It is particularly useful for handling high-dimensional data.
-o	Extreme Gradient Boosting (XGB): XGB is a boosting method that sequentially builds models to correct errors from previous iterations, optimizing model performance through regularization techniques.
-o	Light Gradient Boosting Machine (LGBM): LGBM is a gradient boosting framework that uses histogram-based algorithms to improve efficiency and scalability, particularly suited for large datasets.
+-	Hydrological Data: Daily streamflow data, runoff measurements, and other hydrological indicators were gathered for the same period. This data was essential for understanding the watershed's response to climatic variables.
+### 2.	Machine Learning Models
+- Random Forest (RF): RF is an ensemble learning technique that combines multiple decision trees to improve prediction accuracy. It handles complex interactions and non-linear relationships in the data effectively.
+- Support Vector Machine (SVM): SVM is a supervised learning model that performs classification and regression by finding the optimal hyperplane that separates data points. It is particularly useful for handling high-dimensional data.
+- Extreme Gradient Boosting (XGB): XGB is a boosting method that sequentially builds models to correct errors from previous iterations, optimizing model performance through regularization techniques.
+- Light Gradient Boosting Machine (LGBM): LGBM is a gradient boosting framework that uses histogram-based algorithms to improve efficiency and scalability, particularly suited for large datasets.
 ### 3.	Model Training and Testing
 o	Dataset Split: The dataset was divided into two phases: a training phase (January 1995 to December 2019, comprising 90% of the data) and a testing phase (January 2020 to December 2023, comprising 10% of the data).
 o	Feature Selection: Input parameters included daily mean, daily flow (m³), discharge (maximum and minimum), and runoff (m³). The output parameter was mean daily discharge.
-4.	Performance Evaluation
+### 4.	Performance Evaluation
 o	Statistical Indicators: The performance of each model was evaluated using Root Mean Square Error (RMSE), Mean Absolute Error (MAE), R² (Coefficient of Determination), Nash-Sutcliffe Efficiency (NSE), and Willmott’s Index of Agreement (d). These metrics provide insights into the models' accuracy and reliability.
 ## Results
 ### 1.	Model Performance
