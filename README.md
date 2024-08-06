@@ -30,3 +30,6 @@ The synergistic impact of climate and hydrology on water yield underscores the n
 ## Conclusion
 This study highlights the effectiveness of advanced machine learning models in analyzing water yield and understanding the complex interactions between climate and hydrology in the Gilgel Gibe Watershed. The results contribute to improved water resource management strategies and offer a framework for future research in similar hydrological and climatic contexts.
 
+## Collaborator
+1. Amanuel kumsa
+2. Fitsum Mesfin
